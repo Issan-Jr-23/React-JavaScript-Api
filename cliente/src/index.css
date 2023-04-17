@@ -1,0 +1,80 @@
+*{
+  padding: none;
+  margin: none;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  background: #414141;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 0, 0);
+}
+
+.logo span{
+  margin: 30px;
+  font-weight: 600;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_menu{
+  display: flex;
+}
+
+.nav_menu li a{
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+.Component{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section--hambur{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hamburguesas_description{
+  width: 500px;
+  margin-right: 50px;
+}
+
+.contenedor--img--hambur{
+  margin-left: 50px;
+}
+
+.hamburguesas_description p{
+  line-height: 2.5;
+  font-size: 17px;
+}
+
+.figure_cont--hambur{
+  height: 500px;
+  height: 600px;
+  border-radius: 100%;
+}
+
+.figure_cont--hambur img{
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  
+}
+
+
