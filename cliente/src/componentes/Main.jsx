@@ -12,6 +12,26 @@ function Main (){
                     </figure>
                 </article>
             </section>
+            <section className="cont-formulario">
+                <form className="form" action="">
+                <h3>REGISTRO</h3>
+                    <label className="label--form">
+                    <span>NOMBRE</span>
+                    <input type="text"/>
+                    </label>
+                    <label className="label--form">
+                    <span>CEDULA</span>
+                    <input type="number"/>
+                    </label>
+                    <label className="label--form">
+                    <span>TELEFONO</span>
+                    <input type="number"/>
+                    </label>
+                    <label className="label--form--btn" htmlFor="">
+                        <input className="btn-form" type="submit" value="Registrar"/>
+                    </label>
+                </form>
+            </section>
         </div>
     )
 }
